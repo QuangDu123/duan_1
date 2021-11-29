@@ -2,7 +2,7 @@
     session_start();
     include "model/pdo.php";
     include "view/header.php";
-
+    // helloo
     // if(! isset($_SESSION['myCART'])) $_SESSION['myCART']=[];
 
     // $spnew=loadall_sanpham_home();
