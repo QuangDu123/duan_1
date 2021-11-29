@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+.top1 {
+    float: left;
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    background-image: url(../img/header.jpg);
+    height: 100px;
+    border: 1px #ccc solid;
+    color: blue;
+    border-radius: 5px;
+    font-size: 3vw;
+}
+
+.header h1 {
+    margin: 25px;
+    font-size: 2vw;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.boxphai {
+    float: right;
+    width: 24%;
+}
+
+.footer {
+    /* background-color:rgb(196, 196, 196) ; */
+    background-color: rgb(158, 156, 156);
+    border: 1px #ccc solid;
+    font-size: 1.2vw;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxtitle {
+    text-align: center;
+    font-size: 1.2vw;
+    color: white;
+    padding: 10px;
+    background-color: rgb(158, 156, 156);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.boxcontent {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.boxcontent2 {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    min-height: 200px;
+    background-color: #eee;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+}
+
+.banner img {
+    height: 300px;
+}
+
+.boxsp {
+    float: left;
+    width: 30%;
+    min-height: 250px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxsp p {
+    font-size: 1.5vw;
+    padding: 0px 20px;
+}
+
+.boxsp a {
+    font-size: 1.2vw;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.boxsp .img {
+    min-height: 200px;
+    text-align: center;
+}
+
+.img img {
+    /* height: 170px; */
+    min-height: 70px;
+    max-height: 150px;
+}
+
+.menu ul {
+    padding: 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+    transition: 0.02s;
+}
+
+.menu ul li a:hover {
+    color: yellow;
+    font-size: 1.5vw;
+}
+
+/* tài khoản */
+
+.formtk {
+    line-height: 150%;
+}
+
+.formtk input[type="text"],
+.formtk input[type="email"],
+.formtk input[type="password"],
+.frmcontent input[type="text"],
+.frmcontent input[type="email"],
+.frmcontent input[type="password"],
+.frmcontent input [list="trinhduyet"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formtk input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.list {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*.formtk input[type="submit"],
+.frmcontent input[type="password"],
+.frmcontent input[type="reset"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+     background-color: white;
+    border: 1px #ccc solid; 
+}*/
+.btn_submit{
+    color: white;
+    padding: 5px 10px;
+    margin-left: 2%;
+    text-align: center;
+    background-color: #0d6efd;
+    border-radius: 3px;
+    border-color: #0d6efd;
+  }
+
+/*.formtk input[type="submit"]:hover,
+ .frmcontent input[type="submit"]:hover, 
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover {
+    background-color: #ccc;
+}*/
+
+.formtk li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.formtk li a:hover {
+    color: #090;
+    text-decoration: underline;
+}
+/* menu */
+
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px #ccc solid;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: #ccc;
+}
+
+.searbox input {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #ccc;
+    border-radius: 5px;
+}
+
+.top10 img {
+    width: 20%;
+    /* height: 50px; */
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.top10 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+/*admin  */
+
+.headeradmin {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: blue;
+    border-radius: 5px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.headeradmin h1 {
+    font-size: 2vw;
+}
+
+.frmtitle {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: blue;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.frmcontent {
+    padding: 20px 0px;
+}
+
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th {
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.frmdsloai table td {
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+}
+
+.frmhh {
+    float: left;
+}
+
+* {
+    box-sizing: border-box
+}
+/* slideshow */
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 20px 330px;
+    position: absolute;
+    top: 0;
+}
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+/* admin */
+
+.spct {
+    text-align: center;
+}
+.dul img{
+    width: 100%;
+}
+.form-control{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #CCCCFF;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1.h1{
+    font-size: 1.3vw;
+}
+h1.h1nho{
+    /* padding: 10px  10px; */
+    color: blue;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: #00FFFF; */
+}
+.nut{
+    text-align: center;
+    margin-left: 25%;
+    color: white;
+    padding: 5px 10px;
+    background-color: #0d6efd;
+    border-radius: 3px;
+    border-color: #0d6efd;
+}
+.nut1{
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    background-color: #0d6efd;
+    border-radius: 3px;
+    border-color: #0d6efd;
+}

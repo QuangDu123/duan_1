@@ -1,0 +1,97 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content2 {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content3 {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 60px;
+    background-color: rgb(53, 52, 52);
+}
+
+.menu_chinh {
+    font-size: 1.5vw;
+}
+
+.logo {
+    margin-right: 10%;
+}
+
+.khoa_hoc {
+    margin-top: 20px;
+}
+
+img.img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.bt {
+    width: 33%;
+    margin-top: 10px;
+}
+
+.thongtin {
+    width: 25%;
+    margin-top: 10px;
+}
+
+li.thong_tin {
+    text-align: left;
+}
+
+ul.thong_tin {
+    margin-left: 15px;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.noi_dung {
+    width: 50%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+ul.thong_tinlh {
+    margin-left: 15px;
+}
+
+a.thong_tinlh {
+    text-align: left;
+}
+
+h4.thongtin {
+    color: white;
+}
